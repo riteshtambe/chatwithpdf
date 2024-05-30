@@ -1,0 +1,7 @@
+Youtube Video For solving the torch Library 
+https://youtu.be/ca34C8ZUI0A?si=d6EEEOclKtVFRf_o
+
+added 
+import sysconfig
+usebase_path = os.path.join(sysconfig.get_config_var("userbase"), 'Library', 'bin')
+dll_paths = list(filter(os.path.exists, [th_dll_path, py_dll_path, base_py_dll_path, usebase_path]))

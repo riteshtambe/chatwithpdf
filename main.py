@@ -77,9 +77,9 @@ def main():
             similar_sentence = sentences[similar_sentence_index]
             similarity_score = sorted_scores[i]
             # print(f"{similar_sentence}: Similarity Score = {similarity_score:.4f}")
-        messages=['hello answer the question with the reference contextgiven by the user']
+        messages=['hello answer the quesAIzaSyCpzY5teMmWo8xQYQtFdTvNK72d9JgHEXstion with the reference contextgiven by the user']
 
-        palm.configure(api_key="API KEY")
+        palm.configure(api_key="AIzaSyCpzY5teMmWo8xQYQtFdTvNK72d9JgHEXs")
 
         defaults = {
             'model': 'models/chat-bison-001',
